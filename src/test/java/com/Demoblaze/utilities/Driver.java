@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
+
     public static WebDriver getDriver;
 
     /*
@@ -129,4 +130,7 @@ public class Driver {
         }
     }
 
+    public static WebDriver get() {
+        return null;
+    }
 }
